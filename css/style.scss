@@ -1,2 +1,102 @@
 @import "variabler";
 
+body {
+    background: $bg-color;
+    font-size: $rem-multiplier;
+    width: 100%;
+}
+
+
+/* Elementer */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $h-font-stack;
+}
+
+p {
+    font-family: $p-font-stack;
+    color: $text-color;
+}
+
+a {
+    font-family: $p-font-stack;
+    color: $text-color;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+
+    &:hover{
+        color: $purple;
+    }
+
+    &:visited {
+        color: inherit;
+    }
+}
+
+/* Navigationsbar */
+.navbar {
+
+    .wrapper {
+        max-width: 1200px;
+        padding: 1em 2em;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo a{
+        font-size: 1.5rem;
+        font-family: $h-font-stack;
+        font-weight: 400;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+
+            li {
+                margin: 0 0.8em;
+
+                a {
+                    font-family: $p-font-stack;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        .social-links{
+
+            padding-left: 2rem;
+
+            svg{
+                height: 18px;
+                width: 18px;
+            }
+    
+        }
+
+        @media screen and (max-width: 992px) {
+            display: none;
+        }
+
+    }
+    .nav-menu{
+        display: none;
+
+        @media screen and (max-width: 992px) {
+            display: block;
+        }
+    }
+    
+
+}
