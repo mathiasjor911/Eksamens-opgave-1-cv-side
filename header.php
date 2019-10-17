@@ -8,7 +8,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Catamaran:300,400|Roboto+Mono:300,400,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto+Mono:300,400,500&display=swap" rel="stylesheet">
 
 <!-- Feather Icons -->
 <script src="https://unpkg.com/feather-icons"></script>
@@ -27,13 +27,13 @@
             <div class="links">
                 <ul>
                     <li>
-                        <a href="/portfolio.html">Portfolio</a>
+                        <a class="<?php if (stripos($_SERVER['REQUEST_URI'],'/projekter') !== false) {echo 'active';} ?>" href="/portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="/foto.html">Foto</a>
+                        <a class="<?php if (stripos($_SERVER['REQUEST_URI'],'/foto') !== false) {echo 'active';} ?>" href="/foto">Foto</a>
                     </li>
                     <li>
-                        <a href="/om.html">Om mig</a>
+                        <a classclass="<?php if (stripos($_SERVER['REQUEST_URI'],'/om') !== false) {echo 'active';} ?>" href="/om">Om mig</a>
                     </li>
                 </ul>
                 <div class="social-links">
