@@ -24,6 +24,9 @@
             <div class="logo">
             <a href="/">Mathias Jørgensen</a>
             </div>
+            <div class="nav-menu">
+                <i data-feather="menu"></i>
+            </div>
             <div class="links">
                 <ul>
                     <li>
@@ -37,19 +40,17 @@
                     </li>
                 </ul>
                 <div class="social-links">
-                    <a href="#">
+                    <a href="mailto:mj@mathiasjorgensen.dk">
                         <i data-feather="mail"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/mathias.jor/" target="_blank" rel="nofollow">
                         <i data-feather="instagram"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://github.com/mathiasjor911" target="_blank" rel="nofollow">
                         <i data-feather="github"></i>
                     </a>
                 </div>
             </div>
-            <div class="nav-menu">
-                <i data-feather="menu"></i>
-            </div>
+        
         </div>
     </nav>

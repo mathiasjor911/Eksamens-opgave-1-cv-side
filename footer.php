@@ -9,7 +9,13 @@
     <i data-feather="code"></i><span>af Mathias Jørgensen</span>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(".nav-menu").click(function(){
+    $(".links").slideToggle(300); 
+  });
+  
 
+</script>
 <script>
     feather.replace()
 </script>
