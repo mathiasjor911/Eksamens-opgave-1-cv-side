@@ -30,10 +30,10 @@
             <div class="links">
                 <ul>
                     <li>
-                        <a class="<?php if (stripos($_SERVER['REQUEST_URI'],'/projekter') !== false) {echo 'active';} ?>" href="/portfolio">Portfolio</a>
+                        <a class="<?php if (stripos($_SERVER['REQUEST_URI'],'/portfolio') !== false) {echo 'active';} ?>" href="/portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="<?php if (stripos($_SERVER['REQUEST_URI'],'/foto') !== false) {echo 'active';} ?>" href="/foto">Foto</a>
+                        <a class="" href="https://www.instagram.com/mathias.jor/" rel="nofollow">Foto</a>
                     </li>
                     <li>
                         <a classclass="<?php if (stripos($_SERVER['REQUEST_URI'],'/om') !== false) {echo 'active';} ?>" href="/om">Om mig</a>

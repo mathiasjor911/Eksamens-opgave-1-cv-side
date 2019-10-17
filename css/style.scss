@@ -23,11 +23,16 @@ h6 {
     text-shadow: 1px 1px 0px $bg-color, 2px 2px 0px rgba($color: $primary, $alpha: .3);
 }
 
+::selection{
+    background: rgba($color: $primary, $alpha: .7);
+}
+
 p {
     font-family: $mono-font-stack;
     color: $text-color;
     font-weight: 400;
     font-size: 1.1rem;
+    margin: 0.8rem 0;
 }
 
 a {
@@ -47,7 +52,7 @@ a {
     }
 
     &:visited {
-        color: inherit;
+        color: $text-color;
     }
 }
 
@@ -71,6 +76,10 @@ img{
 .text-link:hover {
     background-size: 1px 50px;
     color: $bg-color;
+}
+
+.active{
+    color: $primary !important;
 }
 
 .wrapper {
@@ -123,10 +132,6 @@ img{
                     font-family: $mono-font-stack;
                     font-size: 14px;
                     text-transform: uppercase;
-
-                    .active{
-                        color: $primary;
-                    }
                 }
             }
         }
@@ -168,6 +173,13 @@ img{
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2393C088' fill-opacity='0.5' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
+.subintro-section{
+    p{
+        max-width: 600px;
+        font-size: 1rem;
+    }
+}
+
 /* Seneste projekter */
 .latest-section{
     padding: 4rem 0 2rem;
@@ -175,6 +187,10 @@ img{
         text-align: center;
         color: $text-color;
         text-shadow: 1px 1px 0px $bg-color, 2px 2px 0px rgba($color: $primary, $alpha: .3);
+    }
+
+    .projekt-item:nth-of-type(n+4){
+        display: none;
     }
 }
 
@@ -188,10 +204,6 @@ img{
 
     @media screen and (max-width: 992px) {
         grid-template-columns: 1fr;
-    }
-
-    .projekt-item:nth-of-type(n+4){
-        display: none;
     }
 }
 
@@ -295,3 +307,27 @@ img{
         font-size: 12px;
     }
 }
+
+/* Galleri */
+.galleri {
+    column-count: 3;
+  }
+  
+  .galleri-item {
+    width: 100%;
+    margin: 0 auto 1em;
+    transition: 400ms ease-in-out;
+
+    &:hover{
+        transform: scale(0.985);
+        transition: 200ms ease-in-out;
+        box-shadow: 0px 12px 20px -10px rgba(0,0,0,0.2);
+      }
+  }
+  
+  
+  
+  .galleri-item img {
+    max-width: 100%;
+    height: auto;
+  }
