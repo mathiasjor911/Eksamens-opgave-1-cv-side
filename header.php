@@ -8,7 +8,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Catamaran:300|Roboto+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Catamaran:300,400|Roboto+Mono:300,400,500&display=swap" rel="stylesheet">
 
 <!-- Feather Icons -->
 <script src="https://unpkg.com/feather-icons"></script>
