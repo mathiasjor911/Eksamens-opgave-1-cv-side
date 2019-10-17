@@ -22,7 +22,7 @@
     <nav class="navbar">
         <div class="wrapper">
             <div class="logo">
-                <a href="/">Mathias Jørgensen</a>
+            <a href="/">Mathias Jørgensen</a>
             </div>
             <div class="links">
                 <ul>

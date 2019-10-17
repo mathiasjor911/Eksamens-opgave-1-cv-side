@@ -1,6 +1,6 @@
 <div class="projekt-grid">
     <div class="projekt-item">
-        <img src="https://source.unsplash.com/random/500x300" />
+        <img src="https://source.unsplash.com/random/500x300/?nature" />
         <div class="projekt-info">
             <div>
                 <p class="projekt-title">Portfolio hjemmeside</p>

@@ -134,6 +134,7 @@ img{
 
     .nav-menu {
         display: none;
+        color: $primary;
 
         @media screen and (max-width: 992px) {
             display: block;
@@ -195,7 +196,7 @@ img{
     &:hover .projekt-info .lead {
         transition: 200ms ease-in-out;
         transition-delay: 400ms;
-        opacity: 0.8;
+        opacity: 1;
     }
     &:hover .projekt-info a {
         transition: 200ms ease-in-out;
