@@ -1,6 +1,8 @@
 # Eksamens opgave 1: Cv side
 *af Mathias Jørgensen*
 
+Se resultat her: [mathiasjorgensen.dk](https://mathiasjorgensen.dk)
+
 
 ## Opgaven
 De fleste af vores eksamensopgaver laver vi sammen i den studiegruppe vi er i, men lige den her skulle hver person i gruppen lave sin egen individuelle side.
