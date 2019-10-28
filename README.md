@@ -25,6 +25,14 @@ I skal udvikle en CV side til jer selv. Denne opgave adskiller sig ved at alle m
 * Alle sider skal benytte Github
 * Alle sider skal være responsive til alle enheder
 
+### Jeg har gjort brug af
+* HTML
+* PHP
+* jQuery
+* SCSS
+* NPM
+* GULP, som SCSS compiler og minifier
+
 
 
 
