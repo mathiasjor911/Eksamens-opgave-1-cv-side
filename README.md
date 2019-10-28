@@ -1,4 +1,4 @@
-# Eksamens opgave 1: Personlig CV / Portfolie Side
+# Eksamens opgave 1: Personlig CV / Portfolio Side
 *af Mathias Jørgensen*
 
 Se resultat her: [mathiasjorgensen.dk](https://mathiasjorgensen.dk)
