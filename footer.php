@@ -31,6 +31,6 @@ $(".nav-menu").click(function(){
   data-fg="#f5f5f5"
   data-font-family="'Roboto Mono', sans-serif"
   data-link="#93C088"
-  data-bg="#24262B">
+  data-bg="#181a1d">
 </script>
 </body>
