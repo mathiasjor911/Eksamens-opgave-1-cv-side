@@ -6,7 +6,7 @@
                 <p class="projekt-title">Portfolio hjemmeside</p>
                 <p class="lead">Eksamensopgave</p>
             </div>
-            <a href="#">
+            <a href="https://github.com/mathiasjor911/Eksamens-opgave-1-cv-side">
                 <i data-feather="external-link"></i>
             </a>
         </div>
@@ -70,6 +70,5 @@
                 <i data-feather="external-link"></i>
             </a>
         </div>
-        </a>
     </div>
 </div>
