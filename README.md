@@ -1,4 +1,4 @@
-# Eksamens opgave 1: Cv side
+# Eksamens opgave 1: Personlig CV / Portfolio Side
 *af Mathias Jørgensen*
 
 Se resultat her: [mathiasjorgensen.dk](https://mathiasjorgensen.dk)
@@ -24,6 +24,14 @@ I skal udvikle en CV side til jer selv. Denne opgave adskiller sig ved at alle m
 * Der skal benyttes GULP som SASS compiler
 * Alle sider skal benytte Github
 * Alle sider skal være responsive til alle enheder
+
+### Jeg har gjort brug af
+* HTML
+* PHP
+* jQuery
+* SCSS
+* NPM
+* GULP, som SCSS compiler og minifier
 
 
 
