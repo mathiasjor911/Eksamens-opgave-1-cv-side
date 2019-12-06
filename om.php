@@ -27,6 +27,24 @@
                 <p> Ved siden af mit studie, udvikler jeg hjemmesider til små og mellemstore virksomheder. Her får jeg mulighed for at videreudvikle mine kompetencer, på måder jeg måske ikke ville på mit studie.</p>
                 <p> Noget af min fritid bruger jeg på at tage billeder, hvilke jeg så deler på min <a class="text-link" rel="nofollow" href="https://www.instagram.com/mathias.jor/">instagram</a>. Udover dette kan jeg også godt lide at bruge tid på små kodeprojekter.</p>
                 <!-- <a class="text-link" href="#">Hent CV</a> -->
+                <h2>Kompetencer</h2>
+                <div class="kompetencer">
+                <p>
+                  HTML
+                </p>
+                <p>
+                  CSS
+                </p>
+                <p>
+                  Jquery
+                </p>
+                <p>
+                  Wordpress
+                </p>
+                <p>
+                  Adobe-pakken
+                </p>
+                </div>
       </div>   
   </section>
 
